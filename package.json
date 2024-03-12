@@ -1,0 +1,24 @@
+{
+  "name": "asset-fortress",
+  "version": "1.0.1",
+  "description": "Advanced management and security for crypto assets, with analytics and recovery solutions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0problema/asset-fortress"
+  },
+  "author": "0problema",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-watchtower": "1.0.0",
+    "crypto-shield": "1.0.0",
+    "ethers": "^5.4.0",
+    "axios": "^0.21.1",
+    "web3": "^1.3.5",
+    "mongodb": "^3.6.3",
+    "express": "^4.17.1"
+  }
+}
